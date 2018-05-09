@@ -1,0 +1,59 @@
+% Created 2018-04-30 Mon 01:35
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=1.5in]{geometry}
+\author{Tony Wang}
+\date{Fri April 27th}
+\title{Investigating Parallel Programming Methods in Notebook-based Programming Environments}
+\hypersetup{
+ pdfauthor={Tony Wang},
+ pdftitle={Investigating Parallel Programming Methods in Notebook-based Programming Environments},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.2.1 (Org mode 9.0.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Summary Paragraph}
+\label{sec:org53f6988}
+Notebook-based programming (programs that combine data,
+visualizations, and code) has become increasingly popular over the
+past few years, specializing in making the data exploration and
+initial development processes easier. However, they are poorly suited
+for high performance computing and a typical "data science" workflow
+currently requires a second step of rewriting the code in a parallel
+manner or in an entirely different environment/language. This project
+will explore a myriad of parallel programming tools available in
+Python and Jupyter with the specific aim of helping to inform
+developers in what cases would a notebook-based parallel programming
+solution suffice or whether a refactor is required. Approaches to
+explore include Ipython's parallel \%magic functions, Cython
+code optimizations, IPython Parallel, Dask package. These approaches
+will be evaluated on various machine learning tasks with well-defined
+benchmarks, such as the Iris flower dataset or the Boston housing
+market dataset. A final test on a real-world machine learning workflow
+will be conducted using data from Electronic Health Records (EHR) to
+predict sepsis.
+
+\section{Team}
+\label{sec:org58e4433}
+\begin{itemize}
+\item Tony Wang
+\item Lawrence Wolf-Sonquim
+\end{itemize}
+\end{document}
